@@ -88,12 +88,6 @@ The sensor section is exposed for better airflow and accurate environmental read
 
 ---
 
-## Preview
-
-(Add project images here)
-
----
-
 ## License
 
 This project is open-source and available under the MIT License.
