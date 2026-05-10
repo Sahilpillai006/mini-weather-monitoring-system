@@ -1,6 +1,6 @@
 # Mini Weather Monitoring Station
 
-A compact Arduino/ESP based mini weather station designed to monitor real-time environmental conditions using a DHT11 sensor and OLED display. This project includes the complete source code, circuit wiring, and a custom 3D printable enclosure designed to neatly house all components.
+A compact ESP8266 based mini weather station designed to monitor real-time environmental conditions using a DHT11 sensor and OLED display. This project includes complete source code, circuit wiring, and a custom 3D printable enclosure designed to neatly house all components.
 
 The system displays real-time:
 - Temperature
@@ -18,14 +18,14 @@ The enclosure is designed with external airflow access for accurate sensor readi
 - Compact custom 3D printable enclosure
 - Beginner-friendly wiring and setup
 - Lightweight and low power design
-- Expandable web server support for remote monitoring
-- Modular design for future IoT integration
+- ESP8266 web server support for remote monitoring
+- Expandable IoT ready architecture
 
 ---
 
 ## Components Used
 
-- Arduino Nano / ESP8266
+- ESP8266 NodeMCU
 - DHT11 Temperature and Humidity Sensor
 - OLED Display (I2C)
 - Jumper Wires
@@ -39,29 +39,29 @@ The enclosure is designed with external airflow access for accurate sensor readi
 
 ### OLED Display (I2C)
 
-| OLED Pin | Arduino Nano |
-|----------|---------------|
-| VCC | 3.3V / 5V |
+| OLED Pin | ESP8266 |
+|----------|----------|
+| VCC | 3.3V |
 | GND | GND |
-| SDA | A4 |
-| SCL | A5 |
+| SDA | D2 |
+| SCL | D1 |
 
 ### DHT11 Sensor
 
-| DHT11 Pin | Arduino Nano |
-|-----------|---------------|
-| VCC | 3.3V / 5V |
+| DHT11 Pin | ESP8266 |
+|-----------|----------|
+| VCC | 3.3V |
 | GND | GND |
-| DATA | Digital Pin |
+| DATA | D4 |
 
 ---
 
 ## 3D Enclosure
 
 The project includes a custom designed 3D printable enclosure made to fit:
+- ESP8266 NodeMCU
 - OLED display
 - DHT11 sensor
-- Arduino board
 
 The sensor section is exposed for better airflow and accurate environmental readings while keeping the electronics protected inside the enclosure.
 
@@ -69,7 +69,7 @@ The sensor section is exposed for better airflow and accurate environmental read
 
 ## Files Included
 
-- Arduino source code
+- ESP8266 source code
 - Circuit wiring reference
 - STL / 3D model files
 - Project images
@@ -78,13 +78,13 @@ The sensor section is exposed for better airflow and accurate environmental read
 
 ## Future Improvements
 
-- Web dashboard for live monitoring
+- Live web dashboard
 - Remote access over WiFi
 - Historical weather data logging
 - Battery backup support
 - OTA firmware updates
-- ESP32 based cloud integration
-- Mobile friendly monitoring interface
+- Cloud based monitoring
+- Mobile friendly interface
 
 ---
 
