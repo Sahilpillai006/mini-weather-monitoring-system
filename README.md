@@ -1,2 +1,33 @@
-# mini-weather-monitoring-system
-Compact mini weather monitoring station with OLED display, custom 3D printable enclosure, and expandable web server support.
+# Mini Weather Monitoring Station
+
+Short project intro here.
+
+## Features
+
+- Feature 1
+- Feature 2
+
+## Components Used
+
+- Arduino Nano
+- DHT11
+- OLED Display
+
+## Wiring
+
+Add wiring details here.
+
+## 3D Model
+
+Information about enclosure.
+
+## Files Included
+
+- Code
+- STL
+- Images
+
+## Future Improvements
+
+- Web dashboard
+- IoT integration
