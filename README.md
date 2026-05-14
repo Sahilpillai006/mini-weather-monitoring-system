@@ -53,6 +53,13 @@ The enclosure is designed with external airflow access for accurate sensor readi
 | VCC | 3.3V |
 | GND | GND |
 | DATA | D4 |
+---
+
+<img width="1176" height="953" alt="weather_station_schem" src="https://github.com/user-attachments/assets/b997c102-a9eb-479c-9583-a96f1622099e" />
+
+---
+
+<img width="1950" height="1033" alt="weather_station_bb" src="https://github.com/user-attachments/assets/9123ef59-1458-4a9e-baae-fba6520d0e1d" />
 
 ---
 
