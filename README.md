@@ -99,6 +99,19 @@ The sensor section is exposed for better airflow and accurate environmental read
 **Sahil B Pillai**  
 Engineer | Robotics & AI Enthusiast
 
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Author
+
+**Sahil B Pillai**  
+Engineer | Robotics & AI Enthusiast  
+
+---
+
 ## License
 
 This project is open-source and available under the MIT License.
