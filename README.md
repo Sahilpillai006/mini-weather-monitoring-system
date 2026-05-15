@@ -96,7 +96,7 @@ The sensor section is exposed for better airflow and accurate environmental read
 ---
 ## Author
 
-**Sahil B Pillai**
+**Sahil B Pillai**  
 Engineer | Robotics & AI Enthusiast
 
 ## License
