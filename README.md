@@ -94,7 +94,11 @@ The sensor section is exposed for better airflow and accurate environmental read
 - Mobile friendly interface
 
 ---
+## 🧑‍💻 Author
 
+# Sahil B Pillai
+Engineer | Robotics & AI Enthusiast
+--------------------------------------------------
 ## License
 
 This project is open-source and available under the MIT License.
